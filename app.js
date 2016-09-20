@@ -1,15 +1,100 @@
+"use strict";
+
 var username = prompt('What is your name?');
 alert('Welcome, ' + username + '!');
 console.log('The user\'s name is ' + username);
 
-var vote = prompt('Who are you voting for?');
-alert('You\'re voting for ' + vote + '.');
-console.log('The user is voting for ' + vote);
+var questions= prompt("So we are going to play a quick guessing game, and hopefully by the end of this game you know a lot more about me! Let's get started!");
 
-var won = prompt('How will you celebrate if s/he wins?');
-alert('Party on, you lucky champ!');
-console.log('The user will celebrate by ' + won + "!");
+var questionOne= prompt("Do I have a pet cat named Gara?");
+if (questionOne=== 'yes') {
+  alert ('Your response was correct!');
+  console.log ('Your response was correct!');
+} else {
+  alert ('Your response was incorrect!');
+  console.log ('Your response was incorrect!');
+}
 
-var lose = prompt('Where will you live for 4 years, if ' + vote + '\'s opponent wins?');
-alert('Hi, my name is ' + username + ', and I\'m voting for ' + vote + '. ' + 'If ' + vote + ' wins, I\'m going to ' + won + ', and party on. ' + 'If, however, my candidate loses... I\'ll be in ' + lose + ', and I guess I\'ll see you guys again in 4 years!');
-console.log('If s/he loses to their opponent, you can find me in ' + lose + "!");
+
+
+/*
+var questionTwo= prompt('');
+if (questionTwo=== 'yes') {
+  alert ('')
+} else {
+  alert ('');
+}
+
+var questionThree= prompt('');
+if (questionThree=== 'yes') {
+  alert ('')
+} else {
+  alert ('');
+}
+
+var questionFour= prompt('');
+if (questionFour=== 'yes') {
+  alert ('')
+} else {
+  alert ('');
+}
+
+var questionFive= prompt('');
+if (questionFive=== 'yes') {
+  alert ('')
+} else {
+  alert ('');
+}
+
+
+
+
+
+
+/*
+var userChoice = prompt("Do you choose rock, paper or scissors?");
+var computerChoice = Math.random();
+if (computerChoice < 0.34) {
+	computerChoice = "rock";
+} else if(computerChoice <= 0.67) {
+	computerChoice = "paper";
+} else {
+	computerChoice = "scissors";
+} console.log("Computer: " + computerChoice);
+
+var compare = function(choice1, choice2) {
+
+if(choice1 === choice2) {
+    return "The result is a tie!";
+}
+
+else if(choice1 === "rock") {
+    if(choice2 === "scissors") {
+        return "rock wins";
+}
+    else {
+        return "paper wins";
+    }
+}
+
+else if(choice1 === "paper") {
+
+    if(choice2 === "rock")  {
+        return "paper wins";
+        }
+    else {
+        return "scissors wins";
+        }
+    }
+else if(choice1 === "scissors") {
+
+    if(choice2 === "rock")  {
+        return "rock wins";
+        }
+    else {
+        return "scissors wins";
+        }
+    }
+};
+compare(userChoice, computerChoice);
+*/
