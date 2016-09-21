@@ -4,10 +4,10 @@ var username = prompt('What is your name?');
 alert('Welcome, ' + username + '!');
 console.log('The user\'s name is ' + username);
 
-var answer= prompt("So we are going to play a quick guessing game, and hopefully by the end of this game you know a lot more about me! Let's get started!");
+var answer= alert("So we are going to play a quick guessing game, and hopefully by the end of this game you know a lot more about me! Let's get started!");
 
 var answerOne= prompt("Is my pet's name Gaara?");
-if (answerOne.toLowerCase()=== 'yes') {
+if (answerOne.toLowerCase()=== 'y') {
   alert ('Your response was correct!');
   console.log ('Correct!');
 } else {
@@ -16,7 +16,7 @@ if (answerOne.toLowerCase()=== 'yes') {
 }
 
 var answerTwo = prompt('Is grapes my favorite fruit?');
-if (answerTwo.toLowerCase() === 'yes') {
+if (answerTwo.toLowerCase() === 'y') {
   alert ('Sorry, your answer was incorrect.')
   console.log ('Incorrect.');
 } else {
@@ -25,7 +25,7 @@ if (answerTwo.toLowerCase() === 'yes') {
 }
 
 var answerThree= prompt('Do I want to hike on the weekend?');
-if (answerThree.toLowerCase()=== 'yes') {
+if (answerThree.toLowerCase()=== 'y') {
   alert ('Of course not! Are you trying to kill me?!')
     console.log ('Incorrect, I probably should though!');
 } else {
@@ -34,7 +34,7 @@ if (answerThree.toLowerCase()=== 'yes') {
 }
 
 var answerFour= prompt('Am I Somali?');
-if (answerFour.toLowerCase()=== 'yes') {
+if (answerFour.toLowerCase()=== 'y') {
   alert ('Yup, and proud of it!')
   console.log ('Correct');
 } else {
@@ -43,7 +43,7 @@ if (answerFour.toLowerCase()=== 'yes') {
 }
 
 var answerFive= prompt('Do I really want to go visit South Korea one day?');
-if (answerFive.toLowerCase()=== 'yes') {
+if (answerFive.toLowerCase()=== 'y') {
   alert ('You bet I do!')
   console.log ('Correct');
 } else {
