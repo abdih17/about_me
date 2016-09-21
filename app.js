@@ -1,13 +1,12 @@
 "use strict";
 
-/*
 var username = prompt('What is your name?');
 alert('Welcome, ' + username + '!');
 console.log('The user\'s name is ' + username);
 
 var answer= prompt("So we are going to play a quick guessing game, and hopefully by the end of this game you know a lot more about me! Let's get started!");
 
-var answerOne= prompt("Is my pet's name Gara?");
+var answerOne= prompt("Is my pet's name Gaara?");
 if (answerOne.toLowerCase()=== 'yes') {
   alert ('Your response was correct!');
   console.log ('Correct!');
@@ -26,7 +25,7 @@ if (answerTwo.toLowerCase() === 'yes') {
 }
 
 var answerThree= prompt('Do I want to hike on the weekend?');
-if (questionThree.toLowerCase()=== 'yes') {
+if (answerThree.toLowerCase()=== 'yes') {
   alert ('Of course not! Are you trying to kill me?!')
     console.log ('Incorrect, I probably should though!');
 } else {

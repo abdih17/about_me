@@ -1,7 +1,11 @@
+
 body {
   height:0%;
   width:100%;
   background-color:#cccccc;
+  margin:10px 10px 0 10px;
+  padding-bottom: 20px;
+  border: 1px solid transparent;
 }
 
 img {
@@ -14,10 +18,11 @@ img {
 
 h1 {
   position: relative;
-  top:-1040px;
-  left: 15px;
+  top:-1060px;
+  left: 20px;
   font-size: 150px;
   font-family: 'Londrina Sketch', sans-serif;
+  color:white;
 }
 
 .header {
@@ -26,19 +31,27 @@ h1 {
 
 .bio {
   height: 90%;
-  width: 54.8%;
+  width: 54%;
   position: relative;
-  top: -1190px;
-  left: 60px;
-  font-size: 22px;
+  top: -1610px;
+  left: 55px;
+  font-size: 18px;
   font-family: 'Coming Soon', arial;
   text-align: center;
+  background: transparent;
 }
 
 span {
   color: deeppink;
 }
 
-.social {
-
+div {
+	width: 120%;
+	height: 400px;
+  position: relative;
+  left: -25px;
+  top: -820px;
+  align-items: baseline;
+  background: white;
+  opacity: .4;
 }
