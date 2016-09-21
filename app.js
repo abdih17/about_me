@@ -1,13 +1,13 @@
-"use strict";
+'use strict';
 
 var username = prompt('What is your name?');
 alert('Welcome, ' + username + '!');
 console.log('The user\'s name is ' + username);
 
-var answer= alert("So we are going to play a quick guessing game, and hopefully by the end of this game you know a lot more about me! Let's get started!");
+var notify = alert('So we are going to play a quick guessing game, and hopefully by the end of this game you know a lot more about me! Let\'s get started');
 
-var answerOne= prompt("Is my pet's name Gaara?");
-if (answerOne.toLowerCase()=== 'y') {
+var answerOne = prompt('Is my pet\'s name Gaara?');
+if (answerOne.toLowerCase()=== 'yes' || 'y') {
   alert ('Your response was correct!');
   console.log ('Correct!');
 } else {
@@ -16,7 +16,7 @@ if (answerOne.toLowerCase()=== 'y') {
 }
 
 var answerTwo = prompt('Is grapes my favorite fruit?');
-if (answerTwo.toLowerCase() === 'y') {
+if (answerTwo.toLowerCase() === 'yes' || 'y') {
   alert ('Sorry, your answer was incorrect.')
   console.log ('Incorrect.');
 } else {
@@ -24,8 +24,8 @@ if (answerTwo.toLowerCase() === 'y') {
   console.log ('Correct!');
 }
 
-var answerThree= prompt('Do I want to hike on the weekend?');
-if (answerThree.toLowerCase()=== 'y') {
+var answerThree = prompt('Do I want to hike on the weekend?');
+if (answerThree.toLowerCase()=== 'yes' || 'y') {
   alert ('Of course not! Are you trying to kill me?!')
     console.log ('Incorrect, I probably should though!');
 } else {
@@ -33,8 +33,8 @@ if (answerThree.toLowerCase()=== 'y') {
   console.log ('Correct');
 }
 
-var answerFour= prompt('Am I Somali?');
-if (answerFour.toLowerCase()=== 'y') {
+var answerFour = prompt('Am I Somali?');
+if (answerFour.toLowerCase()=== 'yes' || 'y') {
   alert ('Yup, and proud of it!')
   console.log ('Correct');
 } else {
@@ -42,8 +42,8 @@ if (answerFour.toLowerCase()=== 'y') {
   console.log ('Incorrect');
 }
 
-var answerFive= prompt('Do I really want to go visit South Korea one day?');
-if (answerFive.toLowerCase()=== 'y') {
+var answerFive = prompt('Do I really want to go visit South Korea one day?');
+if (answerFive.toLowerCase()=== 'yes' || 'y') {
   alert ('You bet I do!')
   console.log ('Correct');
 } else {
