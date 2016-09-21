@@ -1,3 +1,44 @@
+body {
+  height:0%;
+  width:100%;
+  background-color:#cccccc;
+}
+
+img {
+  height: 140%;
+  width: 55%;
+  position: relative;
+  top: -120px;
+  left: 700px;
+}
+
 h1 {
+  position: relative;
+  top:-1040px;
+  left: 15px;
+  font-size: 150px;
+  font-family: 'Londrina Sketch', sans-serif;
+}
+
+.header {
+
+}
+
+.bio {
+  height: 90%;
+  width: 54.8%;
+  position: relative;
+  top: -1190px;
+  left: 60px;
+  font-size: 22px;
+  font-family: 'Coming Soon', arial;
+  text-align: center;
+}
+
+span {
+  color: deeppink;
+}
+
+.social {
 
 }

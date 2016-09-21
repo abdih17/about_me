@@ -1,100 +1,53 @@
 "use strict";
 
+/*
 var username = prompt('What is your name?');
 alert('Welcome, ' + username + '!');
 console.log('The user\'s name is ' + username);
 
-var questions= prompt("So we are going to play a quick guessing game, and hopefully by the end of this game you know a lot more about me! Let's get started!");
+var answer= prompt("So we are going to play a quick guessing game, and hopefully by the end of this game you know a lot more about me! Let's get started!");
 
-var questionOne= prompt("Do I have a pet cat named Gara?");
-if (questionOne=== 'yes') {
+var answerOne= prompt("Is my pet's name Gara?");
+if (answerOne.toLowerCase()=== 'yes') {
   alert ('Your response was correct!');
-  console.log ('Your response was correct!');
+  console.log ('Correct!');
 } else {
-  alert ('Your response was incorrect!');
-  console.log ('Your response was incorrect!');
+  alert ('Sorry, your response was incorrect!');
+  console.log ('Incorrect!');
 }
 
-
-
-/*
-var questionTwo= prompt('');
-if (questionTwo=== 'yes') {
-  alert ('')
+var answerTwo = prompt('Is grapes my favorite fruit?');
+if (answerTwo.toLowerCase() === 'yes') {
+  alert ('Sorry, your answer was incorrect.')
+  console.log ('Incorrect.');
 } else {
-  alert ('');
+  alert ('Yay, your correct!');
+  console.log ('Correct!');
 }
 
-var questionThree= prompt('');
-if (questionThree=== 'yes') {
-  alert ('')
+var answerThree= prompt('Do I want to hike on the weekend?');
+if (questionThree.toLowerCase()=== 'yes') {
+  alert ('Of course not! Are you trying to kill me?!')
+    console.log ('Incorrect, I probably should though!');
 } else {
-  alert ('');
+  alert ('Yup, you got me all figured out!');
+  console.log ('Correct');
 }
 
-var questionFour= prompt('');
-if (questionFour=== 'yes') {
-  alert ('')
+var answerFour= prompt('Am I Somali?');
+if (answerFour.toLowerCase()=== 'yes') {
+  alert ('Yup, and proud of it!')
+  console.log ('Correct');
 } else {
-  alert ('');
+  alert ('Sorry, I\'m a proud Somali!');
+  console.log ('Incorrect');
 }
 
-var questionFive= prompt('');
-if (questionFive=== 'yes') {
-  alert ('')
+var answerFive= prompt('Do I really want to go visit South Korea one day?');
+if (answerFive.toLowerCase()=== 'yes') {
+  alert ('You bet I do!')
+  console.log ('Correct');
 } else {
-  alert ('');
+  alert ('Of course, I want to visit SK');
+  console.log ('Incorrect');
 }
-
-
-
-
-
-
-/*
-var userChoice = prompt("Do you choose rock, paper or scissors?");
-var computerChoice = Math.random();
-if (computerChoice < 0.34) {
-	computerChoice = "rock";
-} else if(computerChoice <= 0.67) {
-	computerChoice = "paper";
-} else {
-	computerChoice = "scissors";
-} console.log("Computer: " + computerChoice);
-
-var compare = function(choice1, choice2) {
-
-if(choice1 === choice2) {
-    return "The result is a tie!";
-}
-
-else if(choice1 === "rock") {
-    if(choice2 === "scissors") {
-        return "rock wins";
-}
-    else {
-        return "paper wins";
-    }
-}
-
-else if(choice1 === "paper") {
-
-    if(choice2 === "rock")  {
-        return "paper wins";
-        }
-    else {
-        return "scissors wins";
-        }
-    }
-else if(choice1 === "scissors") {
-
-    if(choice2 === "rock")  {
-        return "rock wins";
-        }
-    else {
-        return "scissors wins";
-        }
-    }
-};
-compare(userChoice, computerChoice);
-*/
