@@ -33,14 +33,17 @@ function quest2(){
 }
 quest2();
 
-var answerThree = prompt('Do I want to hike on the weekend?');
-if (answerThree.toLowerCase() === 'yes' || 'y') {
-  alert ('Of course not! Are you trying to kill me?!');
-  console.log ('Incorrect, I probably should though!');
-} else {
-  alert ('Yup, you got me all figured out!');
-  console.log ('Correct');
+function quest3(){
+  var answerThree = prompt('Do I want to hike on the weekend?');
+  if (answerThree.toLowerCase() === 'yes' || 'y') {
+    alert ('Of course not! Are you trying to kill me?!');
+    console.log ('Incorrect, I probably should though!');
+  } else {
+    alert ('Yup, you got me all figured out!');
+    console.log ('Correct');
+  }
 }
+quest3();
 
 var answerFour = prompt('Am I Somali?');
 if (answerFour.toLowerCase() === 'yes' || 'y') {
