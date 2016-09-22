@@ -45,14 +45,17 @@ function quest3(){
 }
 quest3();
 
-var answerFour = prompt('Am I Somali?');
-if (answerFour.toLowerCase() === 'yes' || 'y') {
-  alert ('Yup, and proud of it!');
-  console.log ('Correct');
-} else {
-  alert ('Sorry, I\'m a proud Somali!');
-  console.log ('Incorrect');
+function quest4(){
+  var answerFour = prompt('Am I Somali?');
+  if (answerFour.toLowerCase() === 'yes' || 'y') {
+    alert ('Yup, and proud of it!');
+    console.log ('Correct');
+  } else {
+    alert ('Sorry, I\'m a proud Somali!');
+    console.log ('Incorrect');
+  }
 }
+quest4();
 
 var answerFive = prompt('Do I really want to go visit South Korea one day?');
 if (answerFive.toLowerCase() === 'yes' || 'y') {
