@@ -8,15 +8,18 @@ console.log('The user\'s name is ' + username);
 
 alert('So we are going to play a quick guessing game, and hopefully by the end of this game you know a lot more about me! Let\'s get started');
 
-var answerOne = prompt('Is my pet\'s name Gaara?');
-if (answerOne.toLowerCase() === 'yes' || 'y') {
-  alert ('Your response was correct!');
-score = score + 1;
-  console.log ('Correct!');
-} else {
-  alert ('Sorry, your response was incorrect!');
-  console.log ('Incorrect!');
+function quest1(){
+  var answerOne = prompt('Is my pet\'s name Gaara?');
+  if (answerOne.toLowerCase() === 'yes' || 'y') {
+    alert ('Your response was correct!');
+  score = score + 1;
+    console.log ('Correct!');
+  } else {
+    alert ('Sorry, your response was incorrect!');
+    console.log ('Incorrect!');
+  }
 }
+quest1();
 
 var answerTwo = prompt('Is grapes my favorite fruit?');
 if (answerTwo.toLowerCase() === 'yes' || 'y') {
