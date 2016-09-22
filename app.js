@@ -1,5 +1,7 @@
 'use strict';
 //
+var score= 0
+
 // var username = prompt('What is your name?');
 // alert('Welcome, ' + username + '!');
 // console.log('The user\'s name is ' + username);
@@ -9,6 +11,7 @@
 // var answerOne = prompt('Is my pet\'s name Gaara?');
 // if (answerOne.toLowerCase() === 'yes' || 'y') {
 //   alert ('Your response was correct!');
+score = score + 1;
 //   console.log ('Correct!');
 // } else {
 //   alert ('Sorry, your response was incorrect!');
@@ -68,23 +71,37 @@
 // //   }
 // // }
 // //
-// // var numberOfGuessesTwo = 0;
-// // var correctAnswer = true;
-// // var answerSeven = ['OH', 'CA', 'WA', 'AZ', 'MN'];
-// // while (numberOfGuessesTwo < 6 && correctAnswer) {
-// //   numberOfGuessesTwo++;
-// //   var guessTwo = prompt('Guess which state I\'ve lived before?');
-// //   console.log(numberOfGuessesTwo);
-// //   console.log(guessTwo);
-// //
-// //   for (var i = 0; i < answerSeven.length; i++) {
-// //     if (answerSeven[i] === guessTwo) {
-// //       alert('Hey you\'re right, how\'d you know?');
-// //       correctAnswer === false;
-// //     }
-// //   }
-// // }
-// // //   } else {
-// // //     alert('Try again! Hint: The hottest state in the US of A.');
-// // //   }
-// // // }
+var numberOfGuessesTwo = 0;
+var correctAnswer = true;
+var answerSeven = ['OH', 'CA', 'WA', 'AZ', 'MN'];
+while (numberOfGuessesTwo < 6 && correctAnswer) {
+  numberOfGuessesTwo++;
+  console.log('The user has guessed' + guesses + 'times');
+  var guesses = prompt('Enter guess, '.toLowerCase)
+  for (var i = 0; i < answerSeven.length; i++) {
+    if (answerSeven[i] === guessTwo) {
+      alert('Hey you\'re right, how\'d you know?');
+      correctAnswer === false;
+    }
+    console.log('the user guessed the state '+ guesses);
+  }
+}
+
+if (guesss >= 6) {
+  alert ('Wow, ');
+  console.log()
+}
+
+
+
+  var guessTwo = prompt('Guess which state I\'ve lived before?');
+  console.log(numberOfGuessesTwo);
+  console.log(guessTwo);
+
+  for (var i = 0; i < answerSeven.length; i++) {
+  }
+}
+//   } else {
+//     alert('Try again! Hint: The hottest state in the US of A.');
+//   }
+// }

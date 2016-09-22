@@ -25,6 +25,18 @@ h1 {
   color:white;
 }
 
+.rectangle {
+  margin-bottom: 0;
+  width: 120%;
+  height: 400px;
+  position: relative;
+  left: -25px;
+  top: -820px;
+  align-items: baseline;
+  background: white;
+  opacity: .4;
+}
+
 .bio {
   width: 54%;
   position: relative;
@@ -40,20 +52,20 @@ span {
   color: deeppink;
 }
 
-.rectangle {
-  margin-bottom: 0;
-  width: 120%;
-	height: 400px;
-  position: relative;
-  left: -25px;
-  top: -820px;
-  align-items: baseline;
-  background: white;
-  opacity: .4;
+
+b {
+  color: white;
+}
+
+h5 {
+  height: 0px;
+  color:#ff99bb;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
 }
 
 .social {
   position: relative;
-  left: -25px;
-  top: -1200px;
+  left: -660px;
+  top: -1495px;
 }
