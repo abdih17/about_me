@@ -26,7 +26,6 @@ h1 {
 }
 
 .bio {
-  height: 90%;
   width: 54%;
   position: relative;
   top: -1610px;
@@ -42,7 +41,8 @@ span {
 }
 
 div {
-	width: 120%;
+  margin-bottom: 0;
+  width: 120%;
 	height: 400px;
   position: relative;
   left: -25px;
