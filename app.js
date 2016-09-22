@@ -69,21 +69,24 @@ function quest5(){
 }
 quest5();
 
-var answerSix = 4;
-for (var numberOfGuesses = 0; numberOfGuesses < 4; numberOfGuesses++) {
-  var guess = parseInt(prompt('On a scale of 1-10, how comfortable am I with Javascript?'));
-  if (answerSix === guess) {
-    alert('The number you entered was correct. You won!');
-    break;
-  } else {
-    if (guess > 4) {
-      alert('Oh no, you\'re just a little too high!');
+function quest6(){
+  var answerSix = 4;
+  for (var numberOfGuesses = 0; numberOfGuesses < 4; numberOfGuesses++) {
+    var guess = parseInt(prompt('On a scale of 1-10, how comfortable am I with Javascript?'));
+    if (answerSix === guess) {
+      alert('The number you entered was correct. You won!');
+      break;
     } else {
-      alert ('Oh yeah, you\'re getting warmer');
+      if (guess > 4) {
+        alert('Oh no, you\'re just a little too high!');
+      } else {
+        alert ('Oh yeah, you\'re getting warmer');
+      }
+        // alert('Sorry, your out of your chances. Don\'t worry, you can learn more about me on my page... after once last question of course!');
     }
-      // alert('Sorry, your out of your chances. Don\'t worry, you can learn more about me on my page... after once last question of course!');
   }
 }
+quest6();
 
 var numberOfGuessesTwo = 0;
 var correctAnswer = true;
