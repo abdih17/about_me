@@ -21,14 +21,17 @@ function quest1(){
 }
 quest1();
 
-var answerTwo = prompt('Is grapes my favorite fruit?');
-if (answerTwo.toLowerCase() === 'yes' || 'y') {
-  alert ('Sorry, your answer was incorrect.');
-  console.log ('Incorrect.');
-} else {
-  alert ('Yay, your correct!');
-  console.log ('Correct!');
+function quest2(){
+  var answerTwo = prompt('Is grapes my favorite fruit?');
+  if (answerTwo.toLowerCase() === 'yes' || 'y') {
+    alert ('Sorry, your answer was incorrect.');
+    console.log ('Incorrect.');
+  } else {
+    alert ('Yay, your correct!');
+    console.log ('Correct!');
+  }
 }
+quest2();
 
 var answerThree = prompt('Do I want to hike on the weekend?');
 if (answerThree.toLowerCase() === 'yes' || 'y') {
