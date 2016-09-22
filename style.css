@@ -40,7 +40,7 @@ span {
   color: deeppink;
 }
 
-div {
+.rectangle {
   margin-bottom: 0;
   width: 120%;
 	height: 400px;
@@ -50,4 +50,10 @@ div {
   align-items: baseline;
   background: white;
   opacity: .4;
+}
+
+.social {
+  position: relative;
+  left: -25px;
+  top: -1200px;
 }
