@@ -57,15 +57,17 @@ function quest4(){
 }
 quest4();
 
-var answerFive = prompt('Do I really want to go visit South Korea one day?');
-if (answerFive.toLowerCase() === 'yes' || 'y') {
-  alert ('You bet I do!');
-  console.log ('Correct');
-} else {
-  alert ('Of course, I want to visit SK');
-  console.log ('Incorrect');
+function quest5(){
+  var answerFive = prompt('Do I really want to go visit South Korea one day?');
+  if (answerFive.toLowerCase() === 'yes' || 'y') {
+    alert ('You bet I do!');
+    console.log ('Correct');
+  } else {
+    alert ('Of course, I want to visit SK');
+    console.log ('Incorrect');
+  }
 }
-
+quest5();
 
 var answerSix = 4;
 for (var numberOfGuesses = 0; numberOfGuesses < 4; numberOfGuesses++) {
