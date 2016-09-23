@@ -1,18 +1,16 @@
 'use strict';
 
-var score = 0;
-
 var username = prompt('What is your name?');
 alert('Welcome, ' + username + '!');
 console.log('The user\'s name is ' + username);
 
-alert('So we are going to play a quick guessing game, and hopefully by the end of this game you know a lot more about me! Let\'s get started');
+alert('Hi, ' + username + ' we are going to play a quick guessing game, so hopefully by the end of this game you know a lot more about me than I know about you! Let\'s get started!');
 
+// Question 1:
 function quest1(){
-  var answerOne = prompt('Is my pet\'s name Gaara?');
+  var answerOne = prompt('Is my cat\'s name Gaara?');
   if (answerOne.toLowerCase() === 'yes' || 'y') {
     alert ('Your response was correct!');
-    score = score + 1;
     console.log ('Correct!');
   } else {
     alert ('Sorry, your response was incorrect!');
@@ -21,18 +19,20 @@ function quest1(){
 }
 quest1();
 
+// Question 2:
 function quest2(){
-  var answerTwo = prompt('Is grapes my favorite fruit?');
+  var answerTwo = prompt('Is my favorite fruit, grapes?');
   if (answerTwo.toLowerCase() === 'yes' || 'y') {
-    alert ('Sorry, your answer was incorrect.');
+    alert ('Yay, your correct!');
     console.log ('Incorrect.');
   } else {
-    alert ('Yay, your correct!');
+    alert ('Sorry, your answer was incorrect.');
     console.log ('Correct!');
   }
 }
 quest2();
 
+// Question 3:
 function quest3(){
   var answerThree = prompt('Do I want to hike on the weekend?');
   if (answerThree.toLowerCase() === 'yes' || 'y') {
@@ -45,6 +45,7 @@ function quest3(){
 }
 quest3();
 
+// Question 4:
 function quest4(){
   var answerFour = prompt('Am I Somali?');
   if (answerFour.toLowerCase() === 'yes' || 'y') {
@@ -57,24 +58,27 @@ function quest4(){
 }
 quest4();
 
+// Question 5:
 function quest5(){
   var answerFive = prompt('Do I really want to go visit South Korea one day?');
   if (answerFive.toLowerCase() === 'yes' || 'y') {
     alert ('You bet I do!');
     console.log ('Correct');
   } else {
-    alert ('Of course, I want to visit SK');
+    alert ('Of course, I want to visit SK.');
     console.log ('Incorrect');
   }
 }
 quest5();
 
+// Question 6:
 function quest6(){
   var answerSix = 4;
   for (var numberOfGuesses = 0; numberOfGuesses < 4; numberOfGuesses++) {
     var guess = parseInt(prompt('On a scale of 1-10, how comfortable am I with Javascript?'));
     if (answerSix === guess) {
       alert('The number you entered was correct. You won!');
+      console.log('Correct!');
       break;
     } else {
       if (guess > 4) {
@@ -82,17 +86,17 @@ function quest6(){
       } else {
         alert ('Oh yeah, you\'re getting warmer');
       }
-        // alert('Sorry, your out of your chances. Don\'t worry, you can learn more about me on my page... after once last question of course!');
     }
   }
 }
 quest6();
 
+// Question 7:
 function quest7(){
   var answerSeven = ['OH', 'CA', 'WA', 'AZ', 'MN'];
   var isRight = false;
   for(var i = 0; i < 6; i++){
-    var response = prompt('which state have I lived in').toUpperCase();
+    var response = prompt('Guess a state I\'ve lived in before?').toUpperCase();
     var passed = false;
     for(var j = 0; j < answerSeven.length; j++){
       if(answerSeven[j] === response){
@@ -100,16 +104,19 @@ function quest7(){
       }
     }
     if(passed){
-      alert('you\'re right');
+      alert('You\'re right');
+      console.log('Correct!');
       isRight = true;
       break;
     }
     else{
-      alert('try again');
+      alert('Oh no, try again.');
+      console.log('Incorrect!');
     }
   }
   if(!isRight){
-    alert('you suck');
+    alert('You suck!');
+    console.log('Correct!');
   }
 }
 quest7();

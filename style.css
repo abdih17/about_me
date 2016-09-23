@@ -8,7 +8,7 @@ body {
   border: 1px solid transparent;
 }
 
-img {
+.me {
   height: 140%;
   width: 55%;
   position: relative;
