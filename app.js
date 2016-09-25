@@ -7,7 +7,7 @@ console.log('The user\'s name is ' + username);
 alert('Hi, ' + username + ' we are going to play a quick guessing game, so hopefully by the end of this game you know a lot more about me than I know about you! Let\'s get started!');
 
 // Question 1:
-function quest1(){
+function question1(){
   var answerOne = prompt('Is my cat\'s name Gaara?');
   if (answerOne.toLowerCase() === 'yes' || 'y') {
     alert ('Your response was correct!');
@@ -17,10 +17,10 @@ function quest1(){
     console.log ('Incorrect!');
   }
 }
-quest1();
+question1();
 
 // Question 2:
-function quest2(){
+function question2(){
   var answerTwo = prompt('Is my favorite fruit, grapes?');
   if (answerTwo.toLowerCase() === 'yes' || 'y') {
     alert ('Yay, your correct!');
@@ -30,10 +30,10 @@ function quest2(){
     console.log ('Correct!');
   }
 }
-quest2();
+question2();
 
 // Question 3:
-function quest3(){
+function question3(){
   var answerThree = prompt('Do I want to hike on the weekend?');
   if (answerThree.toLowerCase() === 'yes' || 'y') {
     alert ('Of course not! Are you trying to kill me?!');
@@ -43,10 +43,10 @@ function quest3(){
     console.log ('Correct');
   }
 }
-quest3();
+question3();
 
 // Question 4:
-function quest4(){
+function question4(){
   var answerFour = prompt('Am I Somali?');
   if (answerFour.toLowerCase() === 'yes' || 'y') {
     alert ('Yup, and proud of it!');
@@ -56,10 +56,10 @@ function quest4(){
     console.log ('Incorrect');
   }
 }
-quest4();
+question4();
 
 // Question 5:
-function quest5(){
+function question5(){
   var answerFive = prompt('Do I really want to go visit South Korea one day?');
   if (answerFive.toLowerCase() === 'yes' || 'y') {
     alert ('You bet I do!');
@@ -69,10 +69,10 @@ function quest5(){
     console.log ('Incorrect');
   }
 }
-quest5();
+question5();
 
 // Question 6:
-function quest6(){
+function question6(){
   var answerSix = 4;
   for (var numberOfGuesses = 0; numberOfGuesses < 4; numberOfGuesses++) {
     var guess = parseInt(prompt('On a scale of 1-10, how comfortable am I with Javascript?'));
@@ -89,10 +89,10 @@ function quest6(){
     }
   }
 }
-quest6();
+question6();
 
 // Question 7:
-function quest7(){
+function question7(){
   var answerSeven = ['OH', 'CA', 'WA', 'AZ', 'MN'];
   var isRight = false;
   for(var i = 0; i < 6; i++){
@@ -119,7 +119,7 @@ function quest7(){
     console.log('Correct!');
   }
 }
-quest7();
+question7();
 
 
 // function quest7(){
@@ -141,7 +141,7 @@ quest7();
 // }
 // quest7();
 //
-// function testAnswer(response){
+// function testAnswer(response){n
 //   var answerSeven = ['OH', 'CA', 'WA', 'AZ', 'MN'];
 //   for(var i = 0; i < answerSeven.length; i++){
 //     if(answerSeven[i] === response){
